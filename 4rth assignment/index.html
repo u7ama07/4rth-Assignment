@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+
+@media only screen and (max-width: 768px) {
+    /* Adjust styles for smaller screens */
+    #home {
+        flex-direction: column;
+        align-items: center;
+    }
+    .services {
+        flex-direction: column;
+        align-items: center;
+    }
+    /* Add more adjustments as needed */
+}
+
+.links{
+        text-decoration: none;
+        color: black;
+        margin-left: 30px;
+
+}
+#home{
+        width: 100%;  
+        justify-content: space-between;
+        align-items: center; 
+        display: flex;
+
+
+}
+.services{
+
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+}
+
+#navservice{}
+
+
+
+.orange{
+
+    max-width: 33;
+    border: solid;
+    text-align: center;
+    border-width: thin;
+    border-color: gainsboro;
+    margin-left: 15px;
+}
+
+.grapes{ 
+    
+    max-width: 33%;
+    border: solid;
+    text-align: center;
+    border-width: thin;
+    border-color: gainsboro;
+    margin-left: 15px;
+
+}
+
+.gauva{
+    max-width: 33%;
+    border: solid;
+    text-align: center;
+    border-width: thin;
+    border-color: gainsboro;
+    margin-left: 15px;
+
+}
+
+#fruits{
+
+
+max-width: 100%;
+padding-top: 30px;
+display: flex;
+}
+
+.orng{ 
+    max-width: 50%;
+
+
+}
+.orngpic{
+    max-width: 50%;
+    margin-left: 330px;
+    margin-top: 30px;;
+   
+}
+.grapespic{
+    max-width: 50%;
+    margin-left: 410px;
+    margin-top: 30px;
+}
+.gauvapic{
+    max-width: 50%;
+    margin-left: 370px;
+    margin-top: 30px;
+
+}
+#form{
+    max-width: 70%;
+    margin-top: 50px;
+    border: none;
+
+}
+input{
+
+   
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.footer{
+
+max-width: 100%;
+display: flex;
+margin-top: 30px;
+
+}
+
+.ffruit{
+
+    max-width: 25%;
+    margin-left: 60px;
+}
+
+.fservices{
+
+    max-width: 25%;
+    margin-left: 150px;
+
+}
+
+.flists{
+    max-width: 25%;
+
+    margin-left: 150px;
+
+}
+
+.followus{
+max-width: 25%;
+margin-left: 180px;
+
+}
+</style>
+</head>
+<body>
+
+
+    <!------navbar------->
+    <div style="background-color: #F7F7F7;">
+    <div style="max-width: 100%;  display: flex;">
+    <div style="width: 50%; display: flex; align-items: center;">
+<img style="padding-left: 40px; width: 40px;" src="logo.png"><b style="margin-left: 7px; margin-top: 8px;">Tropiko</b>
+</div>
+
+<div style="max-width: 50%;text-align:right; margin-left:130px; display: flex; margin-top: 10px; align-items: center;">
+    <a class="links" href="#home">Home</a>
+    <a class="links" href="#navservice">Services</a>
+    <a class="links" href="#fruits">Fruits</a>
+    <a class="links" href="#form">Contact Us</a>
+    <img class="links" src="search-icon.png" height="19" alt="icon">
+    <button class="links" style="background-color:#FF5B36;margin-top:1px; align-items: center;  padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; color: antiquewhite; border-color:#FF5B36;" >Get a quote</button>
+</div>
+</div>
+
+<div id="home">
+<div style="max-width: 50%; margin-left: 30px;">
+<h1 style=font-size:70px><b>Welcome to<br> our fruits Shop</b></h1>
+<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium, consequatur<br> beatae nihil hic delectus autem facere libero officiis aspernatur, at asperiores voluptates,<br> vitae illo. Assumenda, dolorem. Adipisci repudiandae odit cum?</p>
+<button style="padding-top: 10px; padding-bottom: 10px; padding-left:15px ; padding-right: 15px; background-color:#FF5B36;color: aliceblue; border-color:#FF5B36; margin-left:15px ;"  href="#">Shop Now</button>
+<button style="padding-top: 10px; padding-bottom: 10px; padding-left:15px ; padding-right: 15px; background-color:black ; color: aliceblue;border-color:black; margin-left: 5px;"  href="#" >Contact Us</button>
+</div>
+<div style="max-width: 50%;">
+
+<img style="height: 300px; width: 450px; margin-right: 50px; margin-top: 40px;" src="slide-img.png">
+</div>
+</div>
+</div>
+<div id="navservice">
+
+<div style="text-align: center;">
+   <h1>Our Services</h1> 
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam placeat dolorem iste earum quas, rem possimus.</p>
+
+</div>
+<div class="services">
+
+<div class="orange">
+
+    <img style="height: 75px; width: 75px; padding-bottom: 10%;padding-top: 10%;" src="card-item-1.png" alt=""><br>
+    <i style="text-align: center; color: #FF5B36;">Orange</i>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Animi sit aspernatur 
+        expedita quo facilis culpa repellat debitis<br> tempora? Iure laborum blanditiis ab? Perspiciatis, nulla earum.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id pariatur ab, non<br> placeat temporibus fuga,
+        
+        </p>
+
+</div>
+<div class="grapes">
+
+    <img style="height: 75px; width: 75px; padding-bottom: 10%;padding-top: 10%;" src="card-item-2.png" alt=""><br>
+
+    <i style="text-align: center; color: #FF5B36;">Grapes</i>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Animi sit aspernatur 
+        expedita quo facilis culpa repellat debitis<br> tempora? Iure laborum blanditiis ab? Perspiciatis, nulla earum.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id pariatur ab, non<br> placeat temporibus fuga,
+        </p>
+    
+</div>
+<div class="gauva">
+
+    <img style="height: 75px; width: 75px; padding-bottom: 10%;padding-top: 10%;"src="card-item-3.png" alt=""><br>
+    <i style="text-align: center; color: #FF5B36;">Gauva</i>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.<br> Animi sit aspernatur 
+        expedita quo facilis culpa repellat debitis<br> tempora? Iure laborum blanditiis ab? Perspiciatis, nulla earum.
+         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident id pariatur ab, non<br> placeat temporibus fuga,
+    </p>
+    
+</div>
+</div>
+<div style="text-align: center; padding-top: 20px;" >
+    <button style="padding-top: 10px; padding-bottom: 10px; padding-left:15px ; padding-right: 15px; 
+                    background-color:black ; color: aliceblue;border-color:#F7F7F7;">Read More</button>
+ 
+ </div>
+
+ <div style="text-align: center;">
+    <h1 style="padding-top: 20px">Fresh Fruits</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam placeat dolorem iste earum quas, rem possimus.</p>
+ 
+ </div>
+<div id="fruits">
+
+    <div class="orng">
+        <h4 style="font-size: 20px;">Best Fresh Orange</h4>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi soluta tempore, 
+    animi nihil quia dolor quisquam assumenda voluptatem hic placeat.
+     Architecto eveniet veniam saepe, eaque perferendis possimus asperiores corrupti sit!</p>
+     <button style="padding-top: 10px; padding-bottom: 10px; padding-left:20px ; padding-right: 20px; 
+     background-color:black ; color: aliceblue;border-color:black">Buy Now</button>
+
+
+    </div>
+<div class="orngpic">
+
+<img style=" height: 150px; width: 250px;"       src="orange.png" alt="" srcset="">
+
+</div>
+
+</div>
+
+<div id="fruits">
+
+    <div class="orng">
+        <h4 style="font-size: 20px;">Best Fresh Orange</h4>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi soluta tempore, 
+    animi nihil quia dolor quisquam assumenda voluptatem hic placeat.
+     Architecto eveniet veniam saepe, eaque perferendis possimus asperiores corrupti sit!</p>
+     <button style="padding-top: 10px; padding-bottom: 10px; padding-left:20px ; padding-right: 20px; 
+     background-color:black ; color: aliceblue;border-color:black">Buy Now</button>
+
+
+
+    </div>
+<div class="grapespic">
+
+<img style=" height: 150px; width: 70px;"       src="grapes.png" alt="" srcset="">
+
+</div>
+
+</div>
+<div id="fruits">
+
+    <div class="orng">
+        <h4 style="font-size: 20px;">Best Fresh Orange</h4>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi soluta tempore, 
+    animi nihil quia dolor quisquam assumenda voluptatem hic placeat.
+     Architecto eveniet veniam saepe, eaque perferendis possimus asperiores corrupti sit!</p>
+     <button style="padding-top: 10px; padding-bottom: 10px; padding-left:20px ; padding-right: 20px; 
+     background-color:black ; color: aliceblue;border-color:black">Buy Now</button>
+
+
+    </div>
+<div class="gauvapic">
+
+<img style=" height: 150px; width: 200px;"       src="gauva.png" alt="" srcset="">
+</div>
+</div>
+
+
+<div style="text-align: center; padding-top: 40px;">
+    <h1>Testimonial</h1> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio magnam placeat dolorem iste earum quas, rem possimus.</p>
+ 
+ </div>
+
+ <div style="text-align: center; padding-top: 20px;">
+<img src="client.png">
+
+
+ </div>
+ <div style="text-align: center; padding-top: 40px;">
+    <h3>Johnhex</h3> 
+    <p style="text-align: center;">
+        Lorem ipsum dolor sit 
+        amet consectetur adipisicing elit. Non, sed, veritatis neque nihil dolor rerum fugiat consequuntur laborum dolorum
+         porro voluptate animi alias nemo autem omnis distinctio eos optio nisi. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis similique excepturi nobis! Quidem modi dicta, laudantium esse porro perferendis aperiam sint asperiores neque alias ea exercitationem soluta voluptatum doloribus dolorem?</p>
+ 
+ </div>
+ <div style="max-width: 100%; display: flex;">
+ <div id="form">
+<form>
+    <h1 style="margin-left: 10px;">Contact Us</h1>
+    <input type="text" placeholder="Name" id="Name" size="70" style=" border-style: none;
+    border-bottom:2px solid grey;"><br>
+    <input type="text" placeholder="Phone Number" id="Number" size="70"style=" border-style: none;
+    border-bottom:2px solid grey;"><br>
+    <input type="email" placeholder="email" id="email" size="70"style=" border-style: none;
+    border-bottom:2px solid grey;"><br>
+    <input type="text" placeholder="Message" id="Message" size="70" style=" border-style: none;
+    border-bottom:2px solid grey; margin-top: 40px;"><br>
+    <button style="margin-top: 15px; margin-left: 20px; background-color: #FF5B36;padding-top: 5px; padding-bottom: 5px; padding-left: 15px; padding-right: 15px; color: antiquewhite; border-color:#FF5B36;" type="submit">Send</button>
+
+</form>
+
+</div>
+<div style="max-width: 30%;">
+    <img style=" height: 350px; width: 180px; padding-left: 680px; padding-top: 50px;"  src="orange-dish.png">
+
+
+
+</div>
+</div>
+
+<div class="footer">
+
+    <div class="ffruit">
+<b>Fruits</b>
+
+<br>
+<p>
+    
+    randomised<br>
+    words which <br>
+    don't look even<br>
+    slightly <br>
+    believable. If you<br>
+    are going to use<br>
+    a passage of <br>
+    Lorem Ipsum,
+
+
+</p>
+
+
+
+
+    </div>
+    
+    <div class="fservices">
+        <b>Services</b>
+        
+        <br>
+        <p>
+            
+            randomised<br>
+            words which <br>
+            don't look even<br>
+            slightly <br>
+            believable. If you<br>
+            are going to use<br>
+            a passage of <br>
+            Lorem Ipsum,
+        
+        
+        </p>
+        
+        
+        
+        
+            </div>
+
+            <div class="flists">
+                <b>Lists</b>
+                
+                <br>
+                <p>
+                    
+                    randomised<br>
+                    words which <br>
+                    don't look even<br>
+                    slightly <br>
+                    believable. If you<br>
+                    are going to use<br>
+                    a passage of <br>
+                    Lorem Ipsum,
+                
+                
+                </p>
+                
+                
+                
+                
+                    </div>
+
+
+    <div class="followus">
+        <h3>Follow Us</h3>
+        <div>
+
+        <img src="twitter.png">
+        <img src="instagram.png">
+        <img src="linkedin.png">
+        <img src="fb.png">
+    </div>
+<div>
+        <label style="font-size: 20px;"> Subscribe Now</label><br>
+
+<input style="margin-right: 45px; padding-left: 10px;" type="email" >
+
+<button type="submit" style="background-color:#FF5B36; margin-top: 10px; margin-left: 20px;   padding-top: 5px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; color: antiquewhite; border-color:#FF5B36;" >Subscribe</button>
+
+</div>
+    </div>
+
+
+
+
+</div>
+
+<div style="margin-top: 60px; background-color: rgb(241, 237, 237); text-align: center; padding-top: 10px; padding-bottom: 10px;" >
+
+    <p>Copyright &copy; 2024 All Right Reserved By Dev Usama</p>
+
+
+
+
+
+
+
+</div>
+
+</body>
+</html>
